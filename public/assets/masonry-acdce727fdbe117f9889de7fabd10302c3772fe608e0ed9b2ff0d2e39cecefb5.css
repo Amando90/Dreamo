@@ -1,0 +1,119 @@
+/* line 1, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+/* line 5, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box {
+  background: #fff;
+  margin: 5px;
+  padding: 0px;
+  width: 275px;
+  -webkit-box-shadow: -6px 4px 7px -2px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -6px 4px 7px -2px rgba(0, 0, 0, 0.38);
+  box-shadow: -6px 4px 7px -2px rgba(0, 0, 0, 0.38);
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+}
+/* line 16, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box img {
+  max-width: 100%;
+  margin: 0px;
+  border-radius: 0px;
+  height: auto;
+}
+/* line 22, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box a {
+  color: #7f8c8d;
+}
+/* line 25, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box .submit-box {
+  padding: 5px;
+  background: #fff;
+  color: #7f8c8d;
+}
+/* line 30, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 25px 10px;
+}
+/* line 34, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box h2 a {
+  color: #474747;
+}
+/* line 38, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#masonry-container .box .user {
+  font-size: 12px;
+  border-top: 1px solid #EAEAEA;
+  padding: 15px;
+  margin: 0;
+}
+
+/* line 49, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#post_show .panel-heading {
+  padding: 0;
+}
+/* line 53, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#post_show .post_image img {
+  max-width: 100%;
+  width: 100;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 63, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-heading {
+  padding: 0;
+}
+/* line 67, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .pin_image img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 74, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-body {
+  padding: 35px;
+}
+/* line 76, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-body h1 {
+  margin: 0 0 10px 0;
+}
+/* line 79, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-body .description {
+  color: #868686;
+  line-height: 1.75;
+  margin: 0;
+}
+/* line 85, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-footer {
+  padding: 20px 35px;
+}
+/* line 87, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-footer p {
+  margin: 0;
+}
+/* line 90, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+#pin_show .panel-footer .user {
+  padding-top: 8px;
+}
+
+/* line 96, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 97, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 98, c:/Sites/dreamo/app/assets/stylesheets/masonry.css.scss */
+.clearfix {
+  zoom: 1;
+}

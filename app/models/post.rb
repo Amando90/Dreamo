@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+	acts_as_votable
   	belongs_to :user
 
   	has_attached_file :image, styles: { large: "640x640>", medium: "320x320>", small: "160x160>", thumb: "100x100#" }, default_url: "/images/:style/missing.png"
