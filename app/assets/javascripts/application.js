@@ -1,5 +1,5 @@
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require masonry/jquery.masonry
+//= require masonry/modernizr-transitions
 //= require bootstrap-sprockets
-//= require_tree .

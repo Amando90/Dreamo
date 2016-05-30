@@ -2,21 +2,23 @@
 <html>
 <head>
   <title>Dreamo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag	 'masonry', media: 'all' %>
+  <%= stylesheet_link_tag	 'custom', media: 'all' %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
 
 <%= render 'navigation/navbar'%>
 
-<div class="container-fluid">
 	<% flash.each do |name, msg| %>
 		<%= content_tag :div, msg, class: "alert alert-info" %>
 	<% end %>
 
-	<%= yield %>
-</div>
-
+	<div class="container">
+		<%= yield %>
+	</div>
 </body>
 </html>
