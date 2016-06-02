@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
+	before_action :authenticate_user!
 	before_action :find_post, only: [:show, :edit, :update, :destroy, :upvote]
+	before_action :owned_post, only: [:edit, :update, :destroy] 
 
 	def index
 		@posts = Post.all.order("created_at DESC")
@@ -43,6 +45,7 @@ class PostsController < ApplicationController
  		redirect_to :back
 	end
 
+
 	private
 
 	def post_params
@@ -52,4 +55,12 @@ class PostsController < ApplicationController
 	def find_post
 		@post = Post.find(params[:id])
 	end
+
+	def owned_post
+		unless current_user == @post.user
+			flash[:alert] ="That post doesn't belong to you!"
+			redirect_to root_path
+		end
+	end
+
 end

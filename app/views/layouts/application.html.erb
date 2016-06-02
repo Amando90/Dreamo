@@ -4,7 +4,7 @@
   <title>Dreamo</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
-  <%= stylesheet_link_tag	 'masonry', media: 'all' %>
+  <%= javascript_include_tag 'posts' %>
   <%= stylesheet_link_tag	 'custom', media: 'all' %>
   <%= csrf_meta_tags %>
 
@@ -20,5 +20,6 @@
 	<div class="container">
 		<%= yield %>
 	</div>
+	
 </body>
 </html>
