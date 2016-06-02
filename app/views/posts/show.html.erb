@@ -14,9 +14,11 @@
   		<div class="body">
 			<div class="comments" id="comments_<%= @post.id %>">
 			  <p><small><%= @post.comments.size %> comments</small></p>
-			  <% if @post.comments %>
-			    <%= render @post.comments, post: @post %>
-			  <% end %>
+          <div class="row">
+    			  <% if @post.comments %>
+    			    <%= render @post.comments, post: @post %>
+    			  <% end %>
+          </div>
 			</div>
   		</div>
   	</div>
